@@ -1,0 +1,76 @@
+h2,
+h3 {
+  font-family: "Raleway" sans-serif;
+}
+
+.thumbnail-img {
+  width: 40px;
+}
+
+.card {
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.card .card-body p {
+  font-size: 0.85rem;
+}
+.card .card-body .fs-xs {
+  font-size: 0.75rem;
+}
+
+.footer svg {
+  transform: scale(0.75);
+  margin-left: -10px;
+}
+
+.section-2 a {
+  border-bottom: 1px solid hsl(170, 45%, 43%) !important;
+  color: hsl(170, 45%, 43%);
+}
+.section-2 a:hover {
+  color: rgb(84, 230, 205);
+  border-bottom: 1px solid rgb(84, 230, 205) !important;
+}
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+  .section-1 .col-lg-5 {
+    order: 1;
+  }
+  .section-1 .col-lg-5 .input-group {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+  }
+  .section-1 .col-lg-5 .input-group .form-control {
+    width: 100%;
+  }
+  .section-2 .col-lg-5 {
+    order: 1;
+  }
+  .section-2 .card-body {
+    text-align: left;
+  }
+  .section-3 p {
+    width: 100% !important;
+  }
+  .section-3 form {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .section-3 form input,
+  .section-3 form button {
+    width: 100%;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  .footer {
+    padding: 1rem;
+  }
+  .footer svg {
+    transform: scale(0.75);
+    margin-left: -10px;
+  }
+}
